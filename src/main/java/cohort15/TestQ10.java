@@ -7,10 +7,11 @@ public class TestQ10 {
         while (number  > 0) {
             int numberMod = number % 2;
             if (numberMod == 1) {
-                System.out.println(number);
+                System.out.print(number+" ");
             }
             number--;
         }
+        System.out.println();
     }
 
     //Question 2
